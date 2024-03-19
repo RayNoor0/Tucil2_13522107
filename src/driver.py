@@ -1,3 +1,4 @@
+# File driver.py 
 from BezierCurve import BezierCurve
 from util import Point
 import time
@@ -43,11 +44,11 @@ while (inp_type_method != "bf" and inp_type_method != "dnc"):
 
 start_time = time.time()
 # membangun kurva bezier
-bjirkurf = BezierCurve(ps,inp_iteration,inp_type_method)
-bjirkurf.create_bezier()
+bezier_curve = BezierCurve(ps,inp_iteration,inp_type_method)
+bezier_curve.create_bezier()
 # menampilkan waktu eksekusi
 end_time = time.time()
 execution_time_ms = (end_time - start_time) * 1000
 # display hasil
-bjirkurf.display_bezier(execution_time_ms)
+bezier_curve.display_bezier(execution_time_ms)
 

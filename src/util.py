@@ -1,3 +1,4 @@
+# File util.py
 from collections import namedtuple
 import matplotlib.pyplot as plt
 
@@ -49,5 +50,5 @@ def display_2sets_dots_and_line(points_1, points_2,exec_time):
     if(max_y == "sapi" or max_y<points_2[len(points_2)-1].y):
         max_y = points_2[len(points_2)-1].y
     mid_x = (max_x + min_x) / 2
-    plt.text(mid_x, max_y*1.01, f'Execution Time {exec_time}', ha='center')
+    plt.text(mid_x, max_y*1.01, f'Execution Time {exec_time} millisecond(s)', ha='center')
     plt.show()
