@@ -1,5 +1,5 @@
 # Tucil2_13522107
-<h1 align="center"> Tugas Kecil 2_Strategi Algoritma_13522107</h1>
+<h1 align="center">Tugas Kecil 2_Strategi Algoritma_13522107</h1>
 
 ## Deskripsi
 Membuat Kurva Bezier menggunakan algoritma Divine and Conquer
